@@ -2,7 +2,10 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: paymentservice
-  namespace: argocd 
+  namespace: argocd
+  annotations:
+    notifications.argoproj.io/subscribe.on-deployment.slack: argocd-alerts
+    notifications.argoproj.io/subscribe.on-sync-failed.slack: argocd-alerts
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:

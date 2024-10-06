@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/D-Mwanth/kubernetes-manifests.git'
-    path: paymentservice.yaml
+    path: paymentservice
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'

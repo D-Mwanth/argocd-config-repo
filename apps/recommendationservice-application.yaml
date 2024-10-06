@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/D-Mwanth/kubernetes-manifests.git'
-    path: recommendationservice.yaml
+    path: recommendationservice
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'

@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/D-Mwanth/kubernetes-manifests.git'
-    path: frontend.yaml
+    path: frontend
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'

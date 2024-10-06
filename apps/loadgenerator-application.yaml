@@ -9,7 +9,7 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/D-Mwanth/kubernetes-manifests.git'
-    path: loadgenerator.yaml
+    path: loadgenerator
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
